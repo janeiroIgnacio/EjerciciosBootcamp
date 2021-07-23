@@ -20,4 +20,8 @@ public class EjercicioFactory {
         return new Ejercicio5();
     }
 
+    public Ejercicio6 ejercicio6(){
+        return new Ejercicio6();
+    }
+
 }

@@ -31,7 +31,13 @@ public enum EjercicioEnum {
             public Ejercicio getEjercicio() {
                 return ejercicioFactory.ejercicio5();
             }
-        };
+        },
+        EJERCICIO6{
+        @Override
+        public Ejercicio getEjercicio() {
+            return ejercicioFactory.ejercicio6();
+        }
+    };
 
         EjercicioFactory ejercicioFactory = new EjercicioFactory();
         public abstract Ejercicio getEjercicio();
