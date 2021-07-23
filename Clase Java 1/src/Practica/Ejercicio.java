@@ -1,6 +1,6 @@
 package Practica;
 
-public abstract class EjercicioAbstract {
+public abstract class Ejercicio {
 
     public boolean esPrimo(int n){
 

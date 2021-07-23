@@ -2,7 +2,7 @@ package Practica;
 
 import java.util.Scanner;
 
-public class Ejercicio2 extends EjercicioAbstract{
+public class Ejercicio2 extends Ejercicio{
 
     public boolean esMultiplo(int m, int n){
 

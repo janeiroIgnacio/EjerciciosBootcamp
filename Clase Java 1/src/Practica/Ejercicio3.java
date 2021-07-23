@@ -2,7 +2,7 @@ package Practica;
 
 import java.util.Scanner;
 
-public class Ejercicio3 extends EjercicioAbstract{
+public class Ejercicio3 extends Ejercicio {
 
     @Override
     public void start(){

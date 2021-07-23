@@ -2,7 +2,7 @@ package Practica;
 
 import java.util.Scanner;
 
-public class Ejercicio1 extends EjercicioAbstract{
+public class Ejercicio1 extends Ejercicio{
 
     public boolean esPar(int n){
 

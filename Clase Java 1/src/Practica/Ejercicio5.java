@@ -2,11 +2,12 @@ package Practica;
 
 import java.util.Scanner;
 
-public class Ejercicio5 extends EjercicioAbstract{
+public class Ejercicio5 extends Ejercicio{
 
     int n;
     int m;
     char d;
+    int apariciones = 0;
 
     public int cantidadDeDigitos(int numero){
 
@@ -24,7 +25,6 @@ public class Ejercicio5 extends EjercicioAbstract{
         System.out.println("Ejercicio 5: mostrar por consola los primeros n números naturales que tienen al menos m dígitos d, siendo n, m y d valores que el usuario ingresará por consola.");
 
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Ingresar n: ");
         n = scanner.nextInt();
         System.out.print("Ingresar m: ");
@@ -33,7 +33,6 @@ public class Ejercicio5 extends EjercicioAbstract{
         d = scanner.next().charAt(0);
 
         int i = 1;
-        int apariciones = 0;
         while(continuar(apariciones)){
 
             if(cantidadDeDigitos(i) >= m ){
